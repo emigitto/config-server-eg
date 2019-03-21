@@ -10,4 +10,4 @@ management:
       exposure:
         include: refresh
 
-greeting: Hello
+greeting: HI
