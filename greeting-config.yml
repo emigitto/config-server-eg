@@ -5,5 +5,9 @@ security:
 management:
   security:
     enabled: true # turn off securing the actuator endpoints
+  endpoints:
+    web:
+      exposure:
+        include: refresh
 
-greeting: Hello 
+greeting: Hello
